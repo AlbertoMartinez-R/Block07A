@@ -1,0 +1,43 @@
+html {
+  position: relative;
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div {
+  background-color: rgba(147, 81, 81, 0.71);
+  display: flex;
+  h3 {
+    color: red;
+  }
+}
+
+header {
+  border: 1px solid black;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: center;
+}
+body {
+  border: 1px solid black;
+  margin: 0 auto;
+
+  p {
+    font-size: large;
+    color: bisque;
+  }
+
+  h1 {
+    font-size: 45px;
+    margin: 0;
+    padding: 20px 10px 5px;
+  }
+  summary
+}
+
+img {
+  height: 200px;
+}

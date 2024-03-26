@@ -1,1 +1,41 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  position: relative;
+  border: 1px solid black;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+div {
+  background-color: rgba(147, 81, 81, 0.71);
+  display: inline-flex;
+  width: 550px;
+}
+div h3 {
+  color: red;
+}
+
+header {
+  border: 1px solid black;
+  display: flex;
+  background-color: aqua;
+  flex-direction: column;
+}
+
+body {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+body p {
+  font-size: large;
+  color: bisque;
+}
+body h1 {
+  font-size: 45px;
+  margin: 0;
+  padding: 20px 10px 5px;
+}
+
+img {
+  height: 300px;
+} /*# sourceMappingURL=style.css.map */
