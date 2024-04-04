@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alberto's Book House</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+<html  id="TopofPage" lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alberto's Book House</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
   <header>
-    <h1 id="TopofPage">Alberto's Book House</h1>
-    <p>Please click a book title to view Summary</p>
+    <h1>Alberto's Book House</h1>
     <h2>Welcome to a list of my favorite books</h2>
+    <p>Please click a book title to view Summary</p>
   </header>
-  <body>
-    <section class="index">
+  <section class="index">
+    <div>
+      <img src="./assets/mountainofmadness.png" alt="BookCover1" />
+      <a href="#1">
+        <h5 class="bookindex">
+          "At the Mountains of Madness" by H.P. Lovecraft
+        </h5>
+      </a>
+    </div>
+    <div>
+      <img src="./assets/callofchuthulhu.png" alt="BookCover2" />
+      <a href="#2">
+        <h5 class="bookindex">"The Call of Cthulhu" by H.P. Lovecraft</h5>
+      </a>
+    </div>
+    <div>
+      <img src="./assets/kinginyellow.png" alt="BookCover3" />
+      <a href="#3">
+        <h5 class="bookindex">"The King in Yellow" by Robert W. Chambers</h5>
+      </a>
+    </div>
+    <div>
+      <img src="./assets/Annihilation.png" alt="BookCover4" />
+      <a href="#4">
+        <h5 class="bookindex">"Annihilation" by Jeff VanderMeer</h5>
+      </a>
+    </div>
+    <div>
+      <img src="./assets/Fisherman.png" alt="BookCover5" />
+      <a href="#5">
+        <h5 class="bookindex">"The Fisherman" by John Langan</h5>
+      </a>
+    </div>
+  </section>
+  <section class="SummaryBlock">
+    <div id="1" class="Summary">
       <div>
-        <img src="./assets/mountainofmadness.png" alt="BookCover1" />
-        <a href="#1">
-          <h3 class="bookindex">
-            "At the Mountains of Madness" by H.P. Lovecraft
-          </h3>
-        </a>
-      </div>
-      <div>
-        <img src="./assets/callofchuthulhu.png" alt="BookCover2" />
-        <a href="#2">
-          <h3 class="bookindex">"The Call of Cthulhu" by H.P. Lovecraft</h3>
-        </a>
-      </div>
-      <div>
-        <img src="./assets/kinginyellow.png" alt="BookCover3" />
-        <a href="#3">
-          <h3 class="bookindex">"The King in Yellow" by Robert W. Chambers</h3>
-        </a>
-      </div>
-      <div>
-        <img src="./assets/Annihilation.png" alt="BookCover4" />
-        <a href="#4">
-          <h3 class="bookindex">"Annihilation" by Jeff VanderMeer</h3>
-        </a>
-      </div>
-      <div>
-        <img src="./assets/Fisherman.png" alt="BookCover5" />
-        <a href="#5">
-          <h3 class="bookindex">"The Fisherman" by John Langan</h3>
-        </a>
-      </div>
-    </section>
-    <section class="SummaryBlock">
-      <div class="Summary">
-        <h3 id="1">"At the Mountains of Madness" by H.P. Lovecraft</h3>
+        <h3>"At the Mountains of Madness" by H.P. Lovecraft</h3>
         <p>
           This story, a cornerstone of cosmic horror literature, unfolds through
           the eyes of William Dyer, a professor at Miskatonic University, who
@@ -67,8 +70,11 @@
           about what lies beyond the bounds of human understanding.
         </p>
       </div>
-      <div class="Summary">
-        <h3 id="2">"The Call of Cthulhu" by H.P. Lovecraft</h3>
+      <img src="./assets/mountainofmadness.png" alt="BookCover1" />
+    </div>
+    <div id="2" class="Summary">
+      <div>
+        <h3>"The Call of Cthulhu" by H.P. Lovecraft</h3>
         <p>
           This iconic tale by Lovecraft serves as a linchpin in the Cthulhu
           Mythos, a universe of cosmic entities where human beings are but mere
@@ -85,8 +91,11 @@
           indescribable horrors.
         </p>
       </div>
-      <div class="Summary">
-        <h3 id="3">"The King in Yellow" by Robert W. Chambers</h3>
+      <img src="./assets/callofchuthulhu.png" alt="BookCover2" />
+    </div>
+    <div id="3" class="Summary">
+      <div>
+        <h3>"The King in Yellow" by Robert W. Chambers</h3>
         <p>
           Published at the cusp of the 20th century, "The King in Yellow"
           features a series of interlinked stories that explore the devastating
@@ -102,8 +111,11 @@
           darker truths lying just beneath the surface of reality.
         </p>
       </div>
-      <div class="Summary">
-        <h3 id="4">"Annihilation" by Jeff VanderMeer</h3>
+      <img src="./assets/kinginyellow.png" alt="BookCover3" />
+    </div>
+    <div id="4" class="Summary">
+      <div>
+        <h3>"Annihilation" by Jeff VanderMeer</h3>
         <p>
           "Annihilation" is the gripping first entry in VanderMeer's Southern
           Reach Trilogy, taking readers into the heart of the mysterious Area
@@ -121,8 +133,11 @@
           between reality and the incomprehensible.
         </p>
       </div>
-      <div class="Summary">
-        <h3 id="5">"The Fisherman" by John Langan</h3>
+      <img src="./assets/Annihilation.png" alt="BookCover4" />
+    </div>
+    <div id="5" class="Summary">
+      <div>
+        <h3>"The Fisherman" by John Langan</h3>
         <p>
           John Langan's "The Fisherman" is a novel of profound horror and deep
           emotion. It tells the story of Abe and Dan, two men bound by their
@@ -141,10 +156,16 @@
           of loss, hope, and the enduring human spirit.
         </p>
       </div>
-    </section>
-    <footer>
-      <a href="#TopofPage">Go to top</a>
-      <a href="./feedback.html">Give Feedback</a>
-    </footer>
-  </body>
+      <img src="./assets/Fisherman.png" alt="BookCover5" />
+    </div>
+  </section>
+  <footer>
+    <ul>
+      <li> <a href="#TopofPage">Go to top</a>
+      </li>
+      <li><a href="./feedback.html">Give Feedback</a></li>
+    </ul>
+  </footer>
+</body>
+
 </html>

@@ -1,41 +1,172 @@
+@keyframes color-change {
+  from {
+    color: red;
+  }
+  to {
+    color: blue;
+  }
+}
 html {
-  position: relative;
-  border: 1px solid black;
+  width: calc(100vw - 100px);
   height: 100vh;
-  width: 100vw;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  background-color: cornsilk;
 }
-
-div {
-  background-color: rgba(147, 81, 81, 0.71);
-  display: inline-flex;
-  width: 550px;
+html body header {
+  position: relative;
+  padding-top: 20px;
+  text-align: center;
+  font-size: xx-large;
+  top: 0;
 }
-div h3 {
-  color: red;
+html body header h1 {
+  margin: 0;
+  color: crimson;
 }
-
-header {
-  border: 1px solid black;
+html body header h2 {
+  margin: 0;
+  animation: color-change 1s infinite alternate;
+}
+html body header p {
+  margin: 0;
+  color: blue;
+}
+html body .index {
+  position: relative;
   display: flex;
-  background-color: aqua;
+  flex-wrap: wrap;
+  height: calc(100vh - 200px);
+  align-items: center;
   flex-direction: column;
 }
-
-body {
-  border: 1px solid black;
-  margin: 0 auto;
+html body .index div {
+  display: block;
+  padding: 10px;
+  width: 360px;
+  text-align: center;
 }
-body p {
-  font-size: large;
-  color: bisque;
+html body .index div a {
+  color: black;
+  text-decoration: none;
 }
-body h1 {
-  font-size: 45px;
+html body .index div a:hover {
+  color: blue;
+}
+html body .index div h5 {
   margin: 0;
-  padding: 20px 10px 5px;
+  font-size: medium;
+}
+html body .index div img {
+  height: 25vh;
+}
+html body .SummaryBlock {
+  background-color: bisque;
+}
+html body .SummaryBlock .Summary {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+html body .SummaryBlock .Summary div {
+  padding: 15PX;
+  background-color: rgba(45, 151, 170, 0.897);
+}
+html body .SummaryBlock .Summary div h3 {
+  text-align: center;
+  font-style: italic;
+}
+html body .SummaryBlock .Summary img {
+  width: calc(50% - 20px);
+  max-height: calc(100vh - 50px);
+}
+html body footer {
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(199, 138, 63);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body footer ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+html body footer ul li {
+  list-style: none;
+}
+html body footer ul a {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  text-shadow: 0 0 15px black;
+}
+html body footer ul a:hover {
+  color: white;
 }
 
-img {
-  height: 300px;
-} /*# sourceMappingURL=style.css.map */
+.feedback {
+  font-family: "Arial", sans-serif;
+  background-image: url(./assets/Allbooks.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+.feedback .SectFeedback {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.feedback form {
+  display: flex;
+  flex-direction: column;
+}
+.feedback label {
+  margin-top: 10px;
+}
+.feedback input[type=text],
+.feedback input[type=email],
+.feedback textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.514);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.feedback textarea {
+  resize: vertical;
+}
+.feedback button {
+  margin-top: 10px;
+  display: inline-block;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+.feedback button:hover {
+  background-color: #2980b9;
+}
+.feedback input[type=submit] {
+  color: inherit;
+  border: none;
+  padding: 0;
+  outline: inherit;
+}/*# sourceMappingURL=style.css.map */

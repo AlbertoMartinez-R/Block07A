@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alberto's BookHouse </title>
+    <title>Contact's Book House</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
-<body>
-    <h2>Feedback Form</h2>
-    <form action="_blank" method="post">
-        <label for="Name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
+<body class="feedback">
+    <header>
+        <h2>Feedback Form</h2>
+    </header>
+    <section class="SectFeedback">
 
-        <label for="message">Message:</label><br>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <form action="_blank" method="post">
+            <label for="Name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
 
-        <button>
-            <input type="Submit" value="Submit">
-        </button>
-    </form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+            <button>
+                <input type="Submit" value="Submit">
+            </button>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="/bookHouse.html">Go Back to main page</a></li>
+        </ul>
+    </footer>
 </body>
+
 </html>
